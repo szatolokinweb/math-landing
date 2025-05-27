@@ -6,6 +6,7 @@ export default function Home() {
       <Qwe />
       <Qwe />
       <Qwe />
+      <div className="flex justify-end">qwe</div>
     </div>
   );
 }
