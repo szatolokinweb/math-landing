@@ -1,3 +1,3 @@
 export default function Oge() {
-  return <div>Oge</div>;
+  return <div>ОГЭ</div>;
 }

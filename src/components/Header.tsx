@@ -1,24 +1,6 @@
+import { globalNavLinks } from "@/utils/NavLink";
 import Logo from "./Logo";
-import Nav, { NavLink } from "./Nav";
-
-export const navLinks: NavLink[] = [
-  {
-    href: "/",
-    title: "Обо мне",
-  },
-  {
-    href: "/ege",
-    title: "ЕГЭ",
-  },
-  {
-    href: "/oge",
-    title: "ОГЭ",
-  },
-  {
-    href: "/documents",
-    title: "Материалы",
-  },
-];
+import Nav from "./Nav";
 
 export default function Header() {
   return (
@@ -26,8 +8,8 @@ export default function Header() {
       <div className="flex justify-center">
         <Logo />
       </div>
-      <div className="m-5">
-        <Nav links={navLinks} />
+      <div className="mt-5">
+        <Nav links={globalNavLinks} />
       </div>
     </div>
   );

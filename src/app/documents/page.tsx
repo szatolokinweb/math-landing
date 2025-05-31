@@ -1,3 +1,3 @@
 export default function Documents() {
-  return <div>Documents</div>;
+  return <div>Материалы</div>;
 }

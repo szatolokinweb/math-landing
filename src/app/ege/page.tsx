@@ -1,3 +1,3 @@
 export default function Ege() {
-  return <div>Ege</div>;
+  return <div>ЕГЭ</div>;
 }

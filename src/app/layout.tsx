@@ -12,7 +12,7 @@ export default function RootLayout({
     <html lang="ru">
       <body>
         <Header />
-        {children}
+        <div className="bg-gray-100 py-5">{children}</div>
         <Footer />
       </body>
     </html>
