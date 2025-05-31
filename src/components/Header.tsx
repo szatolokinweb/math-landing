@@ -3,7 +3,7 @@ import Nav, { NavLink } from "./Nav";
 
 export const navLinks: NavLink[] = [
   {
-    href: "/me",
+    href: "/",
     title: "Обо мне",
   },
   {
