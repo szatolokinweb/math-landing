@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="120"
+  height="40"
+  viewBox="0 0 120 40"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- M -->
+  <path
+    d="M15 8V32H20L25 20L30 32H35V8H30V22L25 10L20 22V8H15Z"
+    fill="#DC2626"
+  />
+  <!-- a -->
+  <path
+    d="M45 32C45 28.5 47 26 50 26C53 26 55 28.5 55 32H45ZM50 24C47.5 24 45 21.5 45 18C45 14.5 47.5 12 50 12C52.5 12 55 14.5 55 18C55 21.5 52.5 24 50 24Z"
+    fill="#DC2626"
+  />
+  <!-- t -->
+  <path
+    d="M65 8V12H70V32H75V12H80V8H65Z"
+    fill="#DC2626"
+  />
+  <!-- h -->
+  <path
+    d="M90 8V32H95V22H100V18H95V8H90Z"
+    fill="#DC2626"
+  />
+</svg> 

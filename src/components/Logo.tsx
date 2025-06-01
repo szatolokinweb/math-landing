@@ -1,9 +1,16 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Logo() {
   return (
-    <Link href="/">
-      <div className="w-5 h-5 bg-red-700 rounded-sm" />
+    <Link href="/" className="block hover:opacity-80 transition-opacity">
+      <Image
+        src="/math-logo.svg"
+        alt="Math Logo"
+        width={120}
+        height={40}
+        priority
+      />
     </Link>
   );
 }
