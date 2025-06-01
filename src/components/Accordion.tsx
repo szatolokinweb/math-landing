@@ -19,14 +19,14 @@ export const Accordion = ({
   const [isOpen, setIsOpen] = useState(defaultOpen);
 
   return (
-    <div className={`border rounded-lg overflow-hidden ${className}`}>
+    <div className={`border border-red-600 rounded-lg overflow-hidden ${className}`}>
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="w-full px-4 py-3 flex items-center justify-between bg-white hover:bg-gray-50 transition-colors"
       >
-        <span className="font-medium text-gray-900">{title}</span>
+        <span className="font-medium text-gray-900 text-[0.95em]">{title}</span>
         <ChevronDownIcon
-          className={`w-5 h-5 text-gray-500 transition-transform duration-200 ${
+          className={`w-5 h-5 text-red-600 transition-transform duration-200 ${
             isOpen ? 'transform rotate-180' : ''
           }`}
         />
@@ -37,7 +37,7 @@ export const Accordion = ({
         }`}
       >
         <div className="overflow-hidden">
-          <div className="px-4 py-3 bg-gray-50">{children}</div>
+          <div className="px-4 py-3 bg-gray-50 text-[0.95em]">{children}</div>
         </div>
       </div>
     </div>
