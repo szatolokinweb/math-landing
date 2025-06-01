@@ -58,26 +58,10 @@ export const globalNavLinks: NavLink[] = [
     shouldHighlight: true,
   },
   {
-    title: "Обо мне",
-    url: {
-      pathname: "/",
-      hash: "about",
-    },
-    shouldHighlight: false,
-  },
-  {
     title: "Документы",
     url: {
       pathname: "/documents",
     },
     shouldHighlight: true,
-  },
-  {
-    title: "Контакты",
-    url: {
-      pathname: "/",
-      hash: "contacts",
-    },
-    shouldHighlight: false,
   },
 ];
