@@ -1,5 +1,5 @@
 import { IconType } from 'react-icons';
-import { FaGithub, FaTelegram, FaVk, FaYoutube } from 'react-icons/fa';
+import { FaGithub, FaTelegram, FaYoutube } from 'react-icons/fa';
 import { SiVk } from 'react-icons/si';
 
 export interface SocialLink {
