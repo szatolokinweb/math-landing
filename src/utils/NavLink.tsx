@@ -9,6 +9,13 @@ export type NavLink = {
 
 export const globalNavLinks: NavLink[] = [
   {
+    title: "Главная",
+    url: {
+      pathname: "/",
+    },
+    shouldHighlight: true,
+  },
+  {
     title: "ЕГЭ",
     url: {
       pathname: "/ege",
