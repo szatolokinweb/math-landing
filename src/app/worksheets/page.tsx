@@ -7,19 +7,19 @@ const TOPICS = {
     topics: [
       {
         name: 'Линейные уравнения',
-        pdfUrl: '/algebra/linear-equations.pdf'
+        pdfUrl: '/test.pdf'
       },
       {
         name: 'Квадратные уравнения',
-        pdfUrl: '/algebra/quadratic-equations.pdf'
+        pdfUrl: '/test.pdf'
       },
       {
         name: 'Системы уравнений',
-        pdfUrl: '/algebra/systems-of-equations.pdf'
+        pdfUrl: '/test.pdf'
       },
       {
         name: 'Функции и графики',
-        pdfUrl: '/algebra/functions-and-graphs.pdf'
+        pdfUrl: '/test.pdf'
       }
     ]
   },
@@ -28,19 +28,19 @@ const TOPICS = {
     topics: [
       {
         name: 'Планиметрия',
-        pdfUrl: '/geometry/planimetry.pdf'
+        pdfUrl: '/test.pdf'
       },
       {
         name: 'Стереометрия',
-        pdfUrl: '/geometry/stereometry.pdf'
+        pdfUrl: '/test.pdf'
       },
       {
         name: 'Тригонометрия',
-        pdfUrl: '/geometry/trigonometry.pdf'
+        pdfUrl: '/test.pdf'
       },
       {
         name: 'Векторы',
-        pdfUrl: '/geometry/vectors.pdf'
+        pdfUrl: '/test.pdf'
       }
     ]
   },
@@ -49,19 +49,19 @@ const TOPICS = {
     topics: [
       {
         name: 'Производные',
-        pdfUrl: '/calculus/derivatives.pdf'
+        pdfUrl: '/test.pdf'
       },
       {
         name: 'Интегралы',
-        pdfUrl: '/calculus/integrals.pdf'
+        pdfUrl: '/test.pdf'
       },
       {
         name: 'Пределы',
-        pdfUrl: '/calculus/limits.pdf'
+        pdfUrl: '/test.pdf'
       },
       {
         name: 'Ряды',
-        pdfUrl: '/calculus/series.pdf'
+        pdfUrl: '/test.pdf'
       }
     ]
   }
