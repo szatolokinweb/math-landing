@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>5-8</div>;
+  return <div className="h-screen">5-8</div>;
 }

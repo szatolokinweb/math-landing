@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>ДВИ</div>;
+  return <div className="h-screen">ДВИ</div>;
 }

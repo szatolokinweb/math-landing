@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>Документы</div>;
+  return <div className="h-screen">Документы</div>;
 }

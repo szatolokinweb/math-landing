@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>Материалы</div>;
+  return <div className="h-screen">Материалы</div>;
 }

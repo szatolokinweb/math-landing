@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>ЕГЭ</div>;
+  return <div className="h-screen">ЕГЭ</div>;
 }

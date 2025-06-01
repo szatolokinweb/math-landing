@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>Олимпиады</div>;
+  return <div className="h-screen">Олимпиады</div>;
 }
