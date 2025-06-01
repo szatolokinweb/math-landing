@@ -1,3 +1,3 @@
-export default function Ege() {
+export default function Page() {
   return <div>ЕГЭ</div>;
 }

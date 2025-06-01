@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>ОГЭ</div>;
+  return <div>5-8</div>;
 }
