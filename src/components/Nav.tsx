@@ -22,8 +22,8 @@ export default function Nav({ links }: { links: NavLink[] }) {
 
   return (
     <div className="flex flex-col gap-1 items-center">
-      {links.map(({ title, url, shouldHighlight = true }, index) => {
-        const isActive = shouldHighlight && pathname === url.pathname;
+      {links.map(({ title, url }, index) => {
+        const isActive = pathname === url.pathname;
         return (
           <Link 
             key={index} 
