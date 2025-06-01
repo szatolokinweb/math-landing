@@ -47,7 +47,7 @@ export default function Socials({ socialLinks = defaultSocialLinks, className = 
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+            className="text-red-600 hover:text-red-700 transition-colors duration-200"
             aria-label={`Visit our ${link.name} page`}
           >
             <Icon className="w-6 h-6" />
