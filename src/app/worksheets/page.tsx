@@ -5,28 +5,64 @@ const TOPICS = {
   algebra: {
     title: 'Основные темы по алгебре:',
     topics: [
-      'Линейные уравнения',
-      'Квадратные уравнения',
-      'Системы уравнений',
-      'Функции и графики'
+      {
+        name: 'Линейные уравнения',
+        pdfUrl: '/algebra/linear-equations.pdf'
+      },
+      {
+        name: 'Квадратные уравнения',
+        pdfUrl: '/algebra/quadratic-equations.pdf'
+      },
+      {
+        name: 'Системы уравнений',
+        pdfUrl: '/algebra/systems-of-equations.pdf'
+      },
+      {
+        name: 'Функции и графики',
+        pdfUrl: '/algebra/functions-and-graphs.pdf'
+      }
     ]
   },
   geometry: {
     title: 'Разделы геометрии:',
     topics: [
-      'Планиметрия',
-      'Стереометрия',
-      'Тригонометрия',
-      'Векторы'
+      {
+        name: 'Планиметрия',
+        pdfUrl: '/geometry/planimetry.pdf'
+      },
+      {
+        name: 'Стереометрия',
+        pdfUrl: '/geometry/stereometry.pdf'
+      },
+      {
+        name: 'Тригонометрия',
+        pdfUrl: '/geometry/trigonometry.pdf'
+      },
+      {
+        name: 'Векторы',
+        pdfUrl: '/geometry/vectors.pdf'
+      }
     ]
   },
   calculus: {
     title: 'Темы математического анализа:',
     topics: [
-      'Производные',
-      'Интегралы',
-      'Пределы',
-      'Ряды'
+      {
+        name: 'Производные',
+        pdfUrl: '/calculus/derivatives.pdf'
+      },
+      {
+        name: 'Интегралы',
+        pdfUrl: '/calculus/integrals.pdf'
+      },
+      {
+        name: 'Пределы',
+        pdfUrl: '/calculus/limits.pdf'
+      },
+      {
+        name: 'Ряды',
+        pdfUrl: '/calculus/series.pdf'
+      }
     ]
   }
 } as const;
