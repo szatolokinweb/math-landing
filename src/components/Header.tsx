@@ -1,6 +1,7 @@
 import { globalNavLinks } from "@/utils/NavLink";
 import Logo from "./Logo";
 import Nav from "./Nav";
+import Socials from "./Socials";
 
 export default function Header() {
   return (
@@ -10,6 +11,9 @@ export default function Header() {
       </div>
       <div className="mt-5">
         <Nav links={globalNavLinks} />
+      </div>
+      <div className="mt-5 flex justify-center">
+        <Socials />
       </div>
     </div>
   );
